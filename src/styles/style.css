@@ -42,7 +42,7 @@ header{
  
 main{
     display: flex;
-    background-color: var(--color-neutral-silver);
+    background-color: var(--color--neutral--silver);
     align-items: center;
     justify-content: center;
     gap: 104px;
@@ -51,6 +51,7 @@ main{
 
 .content-lessons{
     width: 657px;
+    
 }
 
 h1{
@@ -99,7 +100,52 @@ h1{
 }
 
 .manage-system h2{
-    width: 542px;    
+    width: 542px; /* para nn usar o break usa esse width para seguir a qubra de texto q ta no figma?*/
+    margin: 0 auto;   
 }
+#manage-system-subtitle{
+    margin-top: 8px;
 
+
+}
+.cards-container{
+    display: flex; /* pra ficar um do lado do outro */
+    margin-top: 16px;
+    gap: 127.5px; /* é o comprimento do espaçamento que separa as linhas do grid*/
+    justify-content: center;
+}
+.cards-container article{
+    width: 299px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209,0.2); /* esse ultimo 4 é referente ao espalhamento da sombra */
+    /*clica no quadradinho da cor, clica algumas vezes até focar rgb e dps escreve a e acrescenta a porcentagem do blur"*/
+    /*o blur vai de 0 até 1, ent se for 20% , fica 0.2*/
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.cards-container article:hover{
+    box-shadow:  0px 8px 14px rgba(171, 190, 209,0.5);
+    transform: translateY(-8px);
+}
+.cards-container img{
+    width: 65px;
+    height: 56px;
+}
+.cards-container h3{
+    color:var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    margin: 0 auto;/* para centralizar uma largura especifica já que nn usamos um justify content e nme usamos display flex */
+    /* auto de maneira automaticamente, msm distancia na esquerda e na direita */
+    /*margin 0 auto para quando usamos uma largura especifica(width) */
+
+
+}
+.cards-container p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
 /* ------------ FIM MANAGE SYSTEM ------------ */
