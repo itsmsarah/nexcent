@@ -148,4 +148,35 @@ h1{
     font-size: 14px;
     line-height: 1.6;
 }
+.section-pixelgrade{
+    display: flex;
+    margin-top: 42px;
+    gap: 49px;
+    justify-content: center;
+    
+}
+.pixelgrade-container{
+    margin-top: 82.5px;
+    width: 661px;
+    
+}
+.pixelgrade-container h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+    width: 570px;
+
+}
+.pixelgrade-container p{
+    width: 601px;
+    font-size: 14px;
+    color:var(--color-neutral-d_grey);
+}
+.pixelgrade-container button{
+    margin-top: 32px;
+    color: var(--color--neutral--white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    cursor: pointer;
+}
 /* ------------ FIM MANAGE SYSTEM ------------ */
