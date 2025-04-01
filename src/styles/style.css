@@ -222,3 +222,35 @@ h1{
     text-align: start;
 
 }
+.design-footer{
+    display: flex;
+    margin-top: 48px;
+    gap:49px;
+    justify-content: center;
+   
+}
+.design-footer-container{
+    margin-top: 82.5px;
+    width: 661px;
+
+}
+.design-footer-container h2{
+    font-size: 32px;
+    width: 524px;
+    margin-bottom: 16px;
+}
+.design-footer-container p{
+    font-size: 14px;
+    width: 601px;
+    color: var(--color-neutral-d_grey);
+    line-height: 18px;
+}
+.design-footer-container button{
+    margin-top: 32px;
+    color: var(--color--neutral--white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
