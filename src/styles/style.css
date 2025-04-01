@@ -225,8 +225,11 @@ h1{
 .design-footer{
     display: flex;
     margin-top: 48px;
-    gap:49px;
+    gap:49.47px;
     justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+   
    
 }
 .design-footer-container{
@@ -243,7 +246,7 @@ h1{
     font-size: 14px;
     width: 601px;
     color: var(--color-neutral-d_grey);
-    line-height: 18px;
+  
 }
 .design-footer-container button{
     margin-top: 32px;
@@ -253,4 +256,56 @@ h1{
     border-radius: 4px;
     cursor: pointer;
 }
+.customer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 78px;
+    background-color: var(--color--neutral--silver);
 
+}
+.customer-content{
+    width: 748px;
+    
+}
+.customer-content p{
+    line-height: 1.5;
+    margin-bottom: 16px;
+
+}
+.customer-content h2{
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 16px;
+
+}
+.customer-content p:nth-of-type(2){
+    color: var( --color-neutral-L_grey);
+}
+.customer-container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+.customer-itens{
+    display: flex;
+    gap: 41px;
+
+}
+.customer-itens img{
+    width: 48px;
+}
+.customer-navigation a p{
+    color: var(--color-primary);
+    margin: 0;
+    gap: 8px;
+    
+
+}
+.customer-navigation a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
