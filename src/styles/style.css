@@ -327,6 +327,7 @@ h1{
     gap: 24px;
     justify-content: center;
     margin-top: 16px;
+    margin-bottom: 94px;
 }
 .caring-cards{
     width: 368px;
@@ -363,3 +364,31 @@ h1{
 .caring-cards-content a p{
     color: var(--color-primary);
 }
+/* FIM CARRING MARKETING */
+
+.pellentesque{
+    text-align: center;
+    background-color: var(--color--neutral--silver);
+    
+}
+.pellentesque a{
+    text-decoration: none;
+    color: var(--color--neutral--white);
+}
+
+
+.pellentesque h2{
+    margin-top: 32px;
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+}
+.pellentesque button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+
